@@ -1,14 +1,11 @@
-<?= $this->extend('auth/templates/index') ?>
-
-<?= $this->section('content') ?>
 <div class="container">
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
-        <div class="col-md-6">
+        <div class="col-lg">
 
-            <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card o-hidden border-0 shadow-lg">
                 <div class="card-body p-0">
                     <!-- Nested Row within Card Body -->
                     <div class="row">
@@ -56,6 +53,9 @@
                                     <button type="submit" class="btn btn-primary btn-user btn-block">
                                         <?= lang('Auth.loginAction') ?>
                                     </button>
+                                    <button class="btn btn-primary btn-user btn-block back_btn">
+                                        Back
+                                    </button>
                                 </form>
                                 <hr>
                                 <?php if ($config->activeResetter) : ?>
@@ -79,4 +79,3 @@
     </div>
 
 </div>
-<?= $this->endSection(); ?>

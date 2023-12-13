@@ -11,7 +11,7 @@ class WisataSeeder extends Seeder
     {
         $faker = \Faker\Factory::create('id_ID');
         $faker->seed(42);
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 7; $i++) {
             $data = [
                 'name' => $faker->city,
                 'description' => $faker->realText(200, 2),
