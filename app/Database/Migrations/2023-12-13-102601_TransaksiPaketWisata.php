@@ -19,6 +19,11 @@ class TransaksiPaketWisata extends Migration
                 'constraint'     => 5,
                 'unsigned'       => true,
             ],
+            'quantity' => [
+                'type'           => 'INT',
+                'constraint'     => 5,
+                'unsigned'       => true,
+            ],
             'review' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '255',
