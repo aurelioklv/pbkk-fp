@@ -27,6 +27,10 @@ class Wisata extends Migration
                 'type'       => 'DECIMAL',
                 'constraint' => '10,2',
             ],
+            'category' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '30',
+            ],
             'image_url' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '255',
