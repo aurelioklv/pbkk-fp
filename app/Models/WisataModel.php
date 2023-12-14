@@ -8,7 +8,7 @@ class WisataModel extends Model
 {
     protected $table = 'wisata';
     protected $useTimestamps = true;
-    protected $allowedFields = ['name', 'description', 'price', 'image_url', 'location_url'];
+    protected $allowedFields = ['name', 'description', 'price', 'category', 'image_url', 'location_url'];
 
     public function getWisata($id = false)
     {
