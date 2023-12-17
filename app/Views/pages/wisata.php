@@ -7,7 +7,7 @@
       <div class="col-lg-8 offset-lg-2 header-text">
         <h2>Ayo Dolan <em>Rek</em></h2>
         <p>Temukan keindahan Surabaya! Jelajahi tempat-tempat menarik, landmark ikonik, dan kuliner khas. Rencanakan
-          petualanganmu di [Nama Website] sekarang!</p>
+          petualanganmu di DolanRek sekarang!</p>
       </div>
     </div>
   </div>
@@ -69,7 +69,7 @@
       <div class="col-lg-12">
         <div class="section-heading text-center">
           <h6>Wisata di Surabaya</h6>
-          <h4>Tempat Wisata <em>Terbaik &amp; Terkeren</em> di [Nama Website]</h4>
+          <h4>Tempat Wisata <em>Terbaik &amp; Terkeren</em> di Surabaya</h4>
         </div>
       </div>
       <?php foreach ($allWisata as $index => $wisata): ?>

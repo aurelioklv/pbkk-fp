@@ -5,8 +5,11 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 header-text">
-        <h2>Discover Most Popular Categories on <em>SnapX</em></h2>
-        <p>You are allowed to freely use SnapX Photography Template for your commercial websites. You are not allowed to redistribute the template ZIP file on any other Free CSS websites.</p>
+
+        <h2>Categories for Your <em>Surabaya Vacation</em></h2>
+        <p>Unlock the best of Surabaya with our curated selection of categories, designed to enhance your vacation
+          experience. Delve into the charm and beauty of Surabaya with our carefully crafted recommendations, ensuring
+          an unforgettable journey through the city's diverse offerings. </p>
       </div>
     </div>
   </div>
@@ -20,7 +23,7 @@
           <div class="icon">
             <img src="assets/images/icon-01.png" alt="">
           </div>
-          <h4>Nature Picture</h4>
+          <h4>Sejarah</h4>
           <span>Available Contests</span>
           <span class="counter">128</span>
         </div>
@@ -30,7 +33,7 @@
           <div class="icon">
             <img src="assets/images/icon-02.png" alt="">
           </div>
-          <h4>Space Contest</h4>
+          <h4>Alam</h4>
           <span>Available Contests</span>
           <span class="counter">224</span>
         </div>
@@ -40,12 +43,12 @@
           <div class="icon">
             <img src="assets/images/icon-03.png" alt="">
           </div>
-          <h4>Portrait Picture</h4>
+          <h4>Religi</h4>
           <span>Available Contests</span>
           <span class="counter">145</span>
         </div>
       </div>
-      <div class="col-lg col-sm-4">
+      <!-- <div class="col-lg col-sm-4">
         <div class="item">
           <div class="icon">
             <img src="assets/images/icon-04.png" alt="">
@@ -68,6 +71,7 @@
     </div>
   </div>
 </div>
+
 
 <section class="featured-contests">
   <div class="container">
@@ -211,7 +215,8 @@
           <div class="item">
             <div class="content">
               <div class="left-content">
-                <p>“SnapX Photography is a professional website template for photo and video related businesses. This Bootstrap v5.1.3 HTML CSS template is provided by TemplateMo website.”</p>
+                <p>“SnapX Photography is a professional website template for photo and video related businesses. This
+                  Bootstrap v5.1.3 HTML CSS template is provided by TemplateMo website.”</p>
                 <h4>Thomas Wilson</h4>
                 <span>User #007704</span>
               </div>
@@ -223,7 +228,8 @@
           <div class="item">
             <div class="content">
               <div class="left-content">
-                <p>“You may visit Too CSS website for latest collections of great templates. There are a variety of different categories for HTML CSS templates.”</p>
+                <p>“You may visit Too CSS website for latest collections of great templates. There are a variety of
+                  different categories for HTML CSS templates.”</p>
                 <h4>John Walker</h4>
                 <span>User #007772</span>
               </div>
@@ -235,7 +241,8 @@
           <div class="item">
             <div class="content">
               <div class="left-content">
-                <p>“If you need a working contact form, please visit TemplateMo contact page for more information. You can easily buy and use a simple PHP contact form.”</p>
+                <p>“If you need a working contact form, please visit TemplateMo contact page for more information. You
+                  can easily buy and use a simple PHP contact form.”</p>
                 <h4>Vincent Anthon</h4>
                 <span>User #007794</span>
               </div>
@@ -247,7 +254,8 @@
           <div class="item">
             <div class="content">
               <div class="left-content">
-                <p>“When you need Free CSS Templates, you just remember our website TemplateMo. We provide you best quality website templates at absolutely free of charge. No hidden cost involved.”</p>
+                <p>“When you need Free CSS Templates, you just remember our website TemplateMo. We provide you best
+                  quality website templates at absolutely free of charge. No hidden cost involved.”</p>
                 <h4>Alan Smithee</h4>
                 <span>User #007765</span>
               </div>
@@ -259,7 +267,9 @@
           <div class="item">
             <div class="content">
               <div class="left-content">
-                <p>“We hope this template is very useful for your website development. If you wish to <a rel="nofollow" href="https://templatemo.com/contact" target="_blank">support TemplateMo</a>, you may make a small amount of donation via PayPal.”</p>
+                <p>“We hope this template is very useful for your website development. If you wish to <a rel="nofollow"
+                    href="https://templatemo.com/contact" target="_blank">support TemplateMo</a>, you may make a small
+                  amount of donation via PayPal.”</p>
                 <h4>Alan Smithee</h4>
                 <span>User #007724</span>
               </div>
@@ -295,6 +305,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </section>
 <?= $this->endSection(); ?>
