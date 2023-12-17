@@ -11,24 +11,20 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="/" class="active">Home</a></li>
-                        <li class="has-sub">
-                            <a href="javascript:void(0)">Wisata</a>
-                            <ul class="sub-menu">
-                                <li><a href="/wisata">Perorangan</a></li>
-                                <li><a href="/paket-wisata">Paket</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/kategori">Kategori</a></li>
-                        <li><a href="/user">User</a></li>
+                        <li><a href="/" class="navbar active ">Home</a></li>
+                        <li><a href="/wisata" class="navbar">Wisata</a></li>
+                        <li><a href="/kategori" class="navbar">Kategori</a></li>
+                        <li><a href="/user" class="navbar">User</a></li>
                     </ul>
-                    <?php if (user() == null) : ?>
+                    <?php if (user() == null): ?>
                         <div class="border-button">
                             <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
                         </div>
-                    <?php else : ?>
+                    <?php else: ?>
                         <div class="border-button">
-                            <a href="<?= base_url('logout') ?>" class="sign-in-up"><i class="fa fa-user"></i> Logout <?= (user() !== null) ? user()->username : '' ?></a>
+                            <a href="<?= base_url('logout') ?>" class="sign-in-up"><i class="fa fa-user"></i> Logout
+                                <?= (user() !== null) ? user()->username : '' ?>
+                            </a>
                         </div>
                     <?php endif; ?>
                     <a class='menu-trigger'>
@@ -69,3 +65,22 @@
     </section>
 </div>
 <!-- ***** Header Area End ***** -->
+
+<style>
+    .btn:hover {
+        background: #666;
+    }
+
+    /* User Login and Register Styles */
+    .user_login,
+    .user_register {
+        display: none;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 600px) {
+        .popupBody {
+            width: 90%;
+        }
+    }
+</style>

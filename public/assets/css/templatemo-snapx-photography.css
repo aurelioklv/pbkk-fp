@@ -311,7 +311,7 @@ Header Style
 }
 
 .header-area {
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.15);
   position: absolute;
   height: 70px;
   top: 0;
@@ -375,7 +375,11 @@ Header Style
 .header-area .main-nav .nav li {
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #00bdfe;
+}
+
+.header-area .main-nav .nav li:hover {
+  border-radius: 15px;
+  background: #00bdfe;
 }
 
 .header-area .main-nav .nav li a {
@@ -764,18 +768,26 @@ section.popupBody {
 
 .popupContainer {
   position: absolute;
-  width: 660px;
-  height: auto;
-  left: 45%;
-  top: 60px;
-  background: #fff;
+  width: 50%;
+  height: 50%;
+  color: #d4d4d4;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  border-radius: 20px;
 }
 
 .btn {
   padding: 10px 20px;
-  background: #00bdfe;
+  background: #2a2a2a;
   color: #fff;
   transition: all 0.3s;
+}
+
+.login.btn {
+  margin-left: 25%;
 }
 
 .btn_red {
@@ -819,19 +831,23 @@ a.btn_red {
 }
 
 .popupHeader {
-  background: #f4f4f2;
+  background: rgba(0, 0, 0, 0);
   position: relative;
   padding: 10px 20px;
-  border-bottom: 1px solid #ddd;
   font-weight: bold;
+  text-align: center;
+  position: relative;
 }
 
+.header_title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
   top: 0;
   padding: 10px 15px;
-  background: #00bdfe;
   cursor: pointer;
   color: #fff;
   font-size: 16px;
@@ -898,15 +914,18 @@ a.btn_red {
 .action_btns {
   clear: both;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .action_btns a {
   display: block;
+  border-radius: 15px;
 }
 /* User Login Form */
 
 .user_login {
   display: none;
+  border-radius: 20px;
 }
 
 .user_login label {
@@ -921,7 +940,10 @@ a.btn_red {
   width: 90%;
   padding: 10px;
   border: 1px solid #ddd;
-  color: #666;
+  color: #afafaf;
+
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .user_login input[type="checkbox"] {
@@ -939,6 +961,10 @@ a.btn_red {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
+}
+
+.signup.small {
+  color: #2a2a2a;
 }
 
 .forgot_password {
@@ -970,6 +996,8 @@ a.btn_red {
   padding: 10px;
   border: 1px solid #ddd;
   color: #666;
+  margin-bottom: 10px;
+  border-radius: 20px;
 }
 
 .user_register input[type="checkbox"] {
@@ -997,7 +1025,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/banner-bg.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1536,7 +1564,7 @@ page heading
 */
 
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/heading-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
