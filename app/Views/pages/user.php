@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 offset-lg-2 header-text">
         <h2>View User's Photos and <em>Contest Details</em></h2>
-        <p>If you wish to <a rel="nofollow" href="https://templatemo.com/contact" target="_blank">support TemplateMo</a>, you shall make a little amount of contribution via PayPal. We hope this SnapX template is useful for your web development. Thank you.</p>
+        <!-- <p>If you wish to <a rel="nofollow" href="https://templatemo.com/contact" target="_blank">support TemplateMo</a>, you shall make a little amount of contribution via PayPal. We hope this SnapX template is useful for your web development. Thank you.</p> -->
       </div>
     </div>
   </div>
@@ -17,18 +17,20 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="avatar">
-          <img src="assets/images/user-avatar.jpg" alt="">
-          <h4>#007772 John Walker</h4>
+          <img src="https://picsum.photos/200" alt="">
+          <h4>
+            <?= (user() !== null) ? user()->username : '' ?>
+          </h4>
         </div>
       </div>
-      <div class="col-lg-2 col-sm-6">
+      <div class="col-lg-12">
         <div class="info">
-          <h6>Rank</h6>
-          <h4>#121</h4>
-          <span>of 1680</span>
+          <h6>Email</h6>
+          <h4><?= (user() !== null) ? user()->email : '' ?></h4>
+          <!-- <span>of 1680</span> -->
         </div>
       </div>
-      <div class="col-lg-2 col-sm-6">
+      <!-- <div class="col-lg-2 col-sm-6">
         <div class="info">
           <h6>Ratings</h6>
           <h4>4.56</h4>
@@ -62,12 +64,12 @@
           <h4>$68,000</h4>
           <span>All Time</span>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
 
-<section class="portfolio">
+<!-- <section class="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-lg-3">
@@ -263,7 +265,8 @@
             </div>
             <div class="col-lg-6">
               <fieldset>
-                <input type="text" name="telephone" id="telephone" placeholder="Your Telephone..." autocomplete="on" required>
+                <input type="text" name="telephone" id="telephone" placeholder="Your Telephone..." autocomplete="on"
+                  required>
               </fieldset>
             </div>
             <div class="col-lg-6">
@@ -291,5 +294,5 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <?= $this->endSection(); ?>
