@@ -28,7 +28,6 @@ class UserSeeder extends Seeder
             $data = [
                 'email' => $email,
                 'username' => $username,
-                'fullname' => $fullname,
                 'password_hash' => '$2y$10$q/rqoZHYJBC067nHuDERze679jR.IpMCwV3wYiEqytq2KQkscepZi',
                 'active' => 1,
                 'created_at' => Time::now(),

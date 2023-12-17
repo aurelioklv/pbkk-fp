@@ -7,14 +7,20 @@
     <div class="row">
       <div class="col-lg-10 offset-lg-1">
         <div class="header-text">
-          <h2>Enter a world of <em>Photos</em> &amp; Amazing <em>Awards</em></h2>
-          <p>SnapX Photography is a professional website template with 5 different HTML pages for maximum customizations. It is free for commercial usage. This Bootstrap v5.1.3 CSS layout is provided by TemplateMo Free CSS Templates.</p>
+
+          <h2>Explore the Beauty of <em>Surabaya's Tourist Spots</em> and Discover <em>Awards</em></h2>
+          <p>Discover the enchanting attractions of Surabaya with our guide to the city's best tourist destinations. Our
+            website provides valuable information on various places to visit, ensuring an unforgettable experience. This
+            resource is dedicated to showcasing the richness of Surabaya's tourism.
+          </p>
           <div class="buttons">
             <div class="big-border-button">
-              <a href="contests.html">Explore SnapX Contest</a>
+              <a href="">Login To Explore Surabaya</a>
             </div>
             <div class="icon-button">
-              <a href="https://youtube.com/templatemo" target="_blank"><i class="fa fa-play"></i> Watch Our Video Now</a>
+              <a href="https://www.youtube.com/@BanggaSurabaya" target="_blank"><i class="fa fa-play"></i> Watch Our
+                Video
+                Now</a>
             </div>
           </div>
         </div>
@@ -30,136 +36,109 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
+
           <div class="item">
             <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-01.jpg" alt="">
+              <img src="<?= base_url() ?>assets/images/featured-01.jpeg" alt="">
               <div class="hover-effect">
                 <div class="content">
-                  <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Vincent Adam</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $1.000 + Camera Nikon</li>
-                  </ul>
+                  <h4>Marvel at the Magnificence of Suramadu Bridge</h4>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
+                      class="fa fa-star"></i>
+                    <span>(4.5)</span>
+                  </h5>
+                  <p>Behold the awe-inspiring grandeur of Suramadu Bridge, an architectural masterpiece connecting the
+                    islands of Java and Madura. With a stellar rating of 4.5 stars, this iconic bridge offers a
+                    breathtaking journey over the azure waters of the Madura Strait.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="item">
             <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-02.jpg" alt="">
+              <img src="<?= base_url() ?>assets/images/featured-02.jpeg" alt="">
               <div class="hover-effect">
                 <div class="content">
-                  <h4>Smile In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Thomas Eddy</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $1,200 + Canon EOS R7</li>
-                  </ul>
+                  <h4>Discover Surabaya's Iconic Landmarks</h4>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
+                      class="fa fa-star"></i>
+                    <span>(4.5)</span>
+                  </h5>
+                  <p>Embark on a journey through the heart of Surabaya to explore its iconic landmarks, each telling a
+                    story of the city's rich history and vibrant culture. With a stellar rating of 4.5 stars, Surabaya's
+                    iconic sites showcase the city's unique charm and significance. </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="item">
             <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-03.jpg" alt="">
+              <img src="<?= base_url() ?>assets/images/featured-03.jpeg" alt="">
               <div class="hover-effect">
                 <div class="content">
-                  <h4>Happy In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Vincent Adam</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $1,800 + Canon EOS R6</li>
-                  </ul>
+                  <h4>Experience the Vibrancy of Alun-Alun Surabaya</h4>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
+                      class="fa fa-star"></i>
+                    <span>(4.5)</span>
+                  </h5>
+                  <p>Immerse yourself in the lively atmosphere of Alun-Alun Surabaya, a bustling public space that
+                    captures the heartbeat of the city. With a stellar rating of 4.5 stars, Alun-Alun Surabaya beckons
+                    visitors to partake in its vibrant energy, surrounded by historical monuments and modern amenities.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="item">
             <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-01.jpg" alt="">
+              <img src="<?= base_url() ?>assets/images/featured-04.jpeg" alt="">
               <div class="hover-effect">
                 <div class="content">
-                  <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Thomas Eddy</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $8,400 + Canon EOS R1</li>
-                  </ul>
+                  <h4>Enchanting Tranquility in Surabaya's Bamboo Forest</h4>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
+                      class="fa fa-star"></i>
+                    <span>(4.5)</span>
+                  </h5>
+                  <p>Step into the serene embrace of Surabaya's Bamboo Forest, where nature's symphony and lush greenery
+                    create an oasis of tranquility. With a stellar rating of 4.5 stars. Surabaya's Bamboo Forest offers
+                    a harmonious blend of natural elegance and peaceful respite, making it a must-visit for those
+                    seeking a moment of calm amidst the
+                    urban hustle.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="item">
             <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-02.jpg" alt="">
+              <img src="<?= base_url() ?>assets/images/featured-05.jpeg" alt="">
               <div class="hover-effect">
                 <div class="content">
-                  <h4>Run In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Vincent Adam</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $5,500 + Canon EOS R3</li>
-                  </ul>
+                  <h4>Discover the Thrills of Ciputra Waterpark Surabaya</h4>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
+                      class="fa fa-star"></i>
+                    <span>(4.5)</span>
+                  </h5>
+                  <p>Embark on an exhilarating journey at Ciputra Waterpark Surabaya, where the excitement of
+                    water-based adventures meets the charm of a tropical paradise. With a stellar rating of 4.5 stars,
+                    this waterpark promises a memorable experience for all ages. Dive into a world of aquatic wonders,
+                    explore thrilling water slides, and bask in the vibrant atmosphere. </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="item">
             <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-03.jpg" alt="">
+              <img src="<?= base_url() ?>assets/images/featured-06.jpeg" alt="">
               <div class="hover-effect">
                 <div class="content">
-                  <h4>Stay In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Thomas Eddy</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $4,400 + Canon EOS R5</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-01.jpg" alt="">
-              <div class="hover-effect">
-                <div class="content">
-                  <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Vincent Adam</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $3,800 + Canon EOS R6</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-02.jpg" alt="">
-              <div class="hover-effect">
-                <div class="content">
-                  <h4>Shoot In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Vincent Adam</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $2,400 + Canon EOS R7</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="thumb">
-              <img src="<?= base_url() ?>assets/images/featured-03.jpg" alt="">
-              <div class="hover-effect">
-                <div class="content">
-                  <h4>Fly In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                  <ul>
-                    <li><span>Contest Winner:</span> Vincent Adam</li>
-                    <li><span>Contest Author:</span> Anthony Soft</li>
-                    <li><span>Awards:</span> $1,200 + Canon EOS R10</li>
+                  <h4>Experience the Beauty of Kejeran Beach </h4>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
+                      class="fa fa-star"></i>
+                    <span>(4.5)</span>
+                  </h5>
+                  <p>Immerse yourself in the natural wonders of Kejeran Beach, where the pristine beauty of the
+                    coastline is truly awe-inspiring. This beach, rated at 4.5 stars, explore the captivating landscapes
+                    and enjoy the tranquil ambiance.</p>
                   </ul>
                 </div>
               </div>
@@ -172,7 +151,7 @@
 </section>
 
 
-<section class="popular-categories">
+<!-- <section class="popular-categories">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-6">
@@ -288,7 +267,7 @@
           <div class="item">
             <div class="closed-item">
               <div class="thumb">
-                <img src="<?= base_url() ?>assets/images/closed-01.jpg" alt="">
+                <img src="<?= base_url() ?>assets/images/closed-01.jpeg" alt="">
                 <span class="winner"><em>Winner:</em> Anthony Soft</span>
                 <span class="price"><em>Award :</em> $1,600</span>
               </div>
@@ -415,5 +394,6 @@
       </div>
     </div>
   </div>
-</section>
+
+</section> -->
 <?= $this->endSection(); ?>

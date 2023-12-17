@@ -50,10 +50,10 @@
                                     <?php endif; ?>
 
 
-                                    <button type="submit" class="btn btn-primary btn-user btn-block">
+                                    <button type="submit" class="login btn btn-user btn-block">
                                         <?= lang('Auth.loginAction') ?>
                                     </button>
-                                    <button class="btn btn-primary btn-user btn-block back_btn">
+                                    <button class="login btn btn-user btn-block back_btn">
                                         Back
                                     </button>
                                 </form>
@@ -65,7 +65,7 @@
                                 <?php endif; ?>
                                 <?php if ($config->allowRegistration) : ?>
                                     <div class="text-center">
-                                        <a class="small" href="<?= url_to('register') ?>"><?= lang('Auth.needAnAccount') ?></a>
+                                        <a class="signup small" href="<?= url_to('register') ?>"><?= lang('Auth.needAnAccount') ?></a>
                                     </div>
                                 <?php endif; ?>
                             </div>

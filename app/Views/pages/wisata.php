@@ -6,7 +6,8 @@
     <div class="row">
       <div class="col-lg-8 offset-lg-2 header-text">
         <h2>Ayo Dolan <em>Rek</em></h2>
-        <p>Temukan keindahan Surabaya! Jelajahi tempat-tempat menarik, landmark ikonik, dan kuliner khas. Rencanakan petualanganmu di [Nama Website] sekarang!</p>
+        <p>Temukan keindahan Surabaya! Jelajahi tempat-tempat menarik, landmark ikonik, dan kuliner khas. Rencanakan
+          petualanganmu di [Nama Website] sekarang!</p>
       </div>
     </div>
   </div>
@@ -21,13 +22,15 @@
             <div class="col-lg-4">
               <fieldset>
                 <label for="contest" class="form-label">Cari Tempat Wisata</label>
-                <input type="text" name="contest" class="searchText" placeholder="Tugu Pahlawan" autocomplete="on" required>
+                <input type="text" name="contest" class="searchText" placeholder="Tugu Pahlawan" autocomplete="on"
+                  required>
               </fieldset>
             </div>
             <div class="col-lg-4">
               <fieldset>
                 <label for="category" class="form-label">Pick Category</label>
-                <select name="category" class="form-select" aria-label="Choose a category" id="category" onchange="this.form.click()">
+                <select name="category" class="form-select" aria-label="Choose a category" id="category"
+                  onchange="this.form.click()">
                   <option selected>Choose a category</option>
                   <option type="checkbox" name="Sejarah" value="Sejarah">Sejarah (200 Tempat Wisata)</option>
                   <option value="Alam">Alam (172 Tempat Wisata)</option>
@@ -38,7 +41,8 @@
             <div class="col-lg-2">
               <fieldset>
                 <label for="chooseprice" class="form-label">Harga Price</label>
-                <select name="Price" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                <select name="Price" class="form-select" aria-label="Default select example" id="chooseCategory"
+                  onchange="this.form.click()">
                   <option selected>Choose a price</option>
                   <option value="gratis">Gratis</option>
                   <option value="50">Di bawah 50k</option>
@@ -68,7 +72,7 @@
           <h4>Tempat Wisata <em>Terbaik &amp; Terkeren</em> di [Nama Website]</h4>
         </div>
       </div>
-      <?php foreach ($allWisata as $index => $wisata) : ?>
+      <?php foreach ($allWisata as $index => $wisata): ?>
         <?php
         $colClass = ($index < 2) ? 'col-lg-6' : 'col-lg-4';
         $imageWidth = ($colClass === 'col-lg-6') ? 570 : 370;
@@ -77,19 +81,26 @@
         <div class="<?= $colClass ?>">
           <div class="item">
             <div class="thumb">
-              <img src="<?= $wisata['image_url'] ?>" alt="" width="<?= $imageWidth ?>" height="<?= $imageHeight ?>" style="object-fit: cover;">
+              <img src="<?= $wisata['image_url'] ?>" alt="" width="<?= $imageWidth ?>" height="<?= $imageHeight ?>"
+                style="object-fit: cover;">
               <div class="top-content">
-                <h4><?= $wisata['name'] ?></h4>
+                <h4>
+                  <?= $wisata['name'] ?>
+                </h4>
                 <h6><i class="fa fa-eye"></i> 840 | <i class="fa fa-heart"></i> 160</h6>
               </div>
             </div>
             <div class="down-content">
               <div class="row">
                 <div class="col-7">
-                  <h2><?= $wisata['price'] ?></h2>
+                  <h2>
+                    <?= $wisata['price'] ?>
+                  </h2>
                 </div>
                 <div class="col-5">
-                  <h6>Category: <?= $wisata['category'] ?></h6>
+                  <h6>Category:
+                    <?= $wisata['category'] ?>
+                  </h6>
                 </div>
               </div>
             </div>
@@ -100,7 +111,7 @@
   </div>
 </section>
 
-<section class="contest-win">
+<!-- <section class="contest-win">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
@@ -192,5 +203,5 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <?= $this->endSection(); ?>
