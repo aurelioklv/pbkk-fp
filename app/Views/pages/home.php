@@ -43,8 +43,7 @@
               <div class="hover-effect">
                 <div class="content">
                   <h4>Marvel at the Magnificence of Suramadu Bridge</h4>
-                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
-                      class="fa fa-star"></i>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i class="fa fa-star"></i>
                     <span>(4.5)</span>
                   </h5>
                   <p>Behold the awe-inspiring grandeur of Suramadu Bridge, an architectural masterpiece connecting the
@@ -60,8 +59,7 @@
               <div class="hover-effect">
                 <div class="content">
                   <h4>Discover Surabaya's Iconic Landmarks</h4>
-                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
-                      class="fa fa-star"></i>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i class="fa fa-star"></i>
                     <span>(4.5)</span>
                   </h5>
                   <p>Embark on a journey through the heart of Surabaya to explore its iconic landmarks, each telling a
@@ -77,8 +75,7 @@
               <div class="hover-effect">
                 <div class="content">
                   <h4>Experience the Vibrancy of Alun-Alun Surabaya</h4>
-                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
-                      class="fa fa-star"></i>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i class="fa fa-star"></i>
                     <span>(4.5)</span>
                   </h5>
                   <p>Immerse yourself in the lively atmosphere of Alun-Alun Surabaya, a bustling public space that
@@ -95,8 +92,7 @@
               <div class="hover-effect">
                 <div class="content">
                   <h4>Enchanting Tranquility in Surabaya's Bamboo Forest</h4>
-                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
-                      class="fa fa-star"></i>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i class="fa fa-star"></i>
                     <span>(4.5)</span>
                   </h5>
                   <p>Step into the serene embrace of Surabaya's Bamboo Forest, where nature's symphony and lush greenery
@@ -114,8 +110,7 @@
               <div class="hover-effect">
                 <div class="content">
                   <h4>Discover the Thrills of Ciputra Waterpark Surabaya</h4>
-                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
-                      class="fa fa-star"></i>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i class="fa fa-star"></i>
                     <span>(4.5)</span>
                   </h5>
                   <p>Embark on an exhilarating journey at Ciputra Waterpark Surabaya, where the excitement of
@@ -132,8 +127,7 @@
               <div class="hover-effect">
                 <div class="content">
                   <h4>Experience the Beauty of Kejeran Beach </h4>
-                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i
-                      class="fa fa-star"></i>
+                  <h5> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></i><i class="fa fa-star"></i>
                     <span>(4.5)</span>
                   </h5>
                   <p>Immerse yourself in the natural wonders of Kejeran Beach, where the pristine beauty of the

@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <title>Vacation in Surabaya</title>
+    <link rel="icon" href="<?= base_url() ?>assets/images/logo.png" type="image/png">
 
     <!-- Bootstrap core CSS -->
     <link href="<?= base_url() ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,9 +42,7 @@ https://templatemo.com/tm-576-snapx-photography
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright © 2048 <a href="#">Surabaya Vacation</a> All rights reserved.
-
-                        <!-- Design: <a title="CSS Templates" rel="sponsored" href="https://templatemo.com/page/1" target="_blank">TemplateMo</a></p> -->
+                    <p>Copyright © <?= date("Y") ?> <a href="#">Surabaya Vacation</a></p>
                 </div>
             </div>
         </div>

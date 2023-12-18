@@ -35,6 +35,11 @@ class Wisata extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '255',
             ],
+            'image_path' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '255',
+                'null'       => true,
+            ],
             'location_url' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '400',

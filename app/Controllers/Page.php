@@ -13,8 +13,10 @@ class Page extends BaseController
     }
     public function index(): string
     {
+        $featuredWisata = $this->wisataModel->getFeaturedWisata();
         $data = [
             'config' => config('Auth'),
+            'featuredWisata' => $featuredWisata,
         ];
         return view('pages/home', $data);
     }
@@ -26,13 +28,6 @@ class Page extends BaseController
             'allWisata' => $allWisata,
         ];
         return view('pages/wisata', $data);
-    }
-    public function paket(): string
-    {
-        $data = [
-            'config' => config('Auth'),
-        ];
-        return view('pages/paket', $data);
     }
     public function kategori(): string
     {
